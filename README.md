@@ -1,60 +1,78 @@
-Estudo Dirigido – Projeto Final: Controle e Automação
-Revisão e Análise Baseada em “Sistemas de Controle Modernos” (13ª Ed., Dorf & Bishop)
+# Estudo Dirigido – Projeto Final: Controle e Automação  
+_Revisão baseada no livro “Sistemas de Controle Modernos” (13ª Ed., Dorf & Bishop)_
 
-📚 Descrição
-Este repositório reúne um estudo dirigido essencial para o desenvolvimento do Projeto Final da disciplina de Controle e Automação do curso de Engenharia da Computação (IFPB – Campina Grande). A abordagem se fundamenta em capítulos-chave do livro “Sistemas de Controle Modernos” (13ª edição), de Richard C. Dorf & Robert H. Bishop, integrando a teoria clássica e moderna à prática de simulação.
+---
 
-🗂️ Capítulos de Referência
-Capítulo 4: Características dos Sistemas de Controle de Feedback
-Explora respostas transitórias, erros de regime permanente, sensibilidade e robustez em sistemas de controle, aspectos centrais para garantir desempenho e estabilidade.
+## 📚 Descrição
 
-Capítulo 5: Desempenho dos Sistemas de Controle de Feedback
-Analisa o desempenho dos sistemas frente a entradas padrão (degrau, rampa, impulso), além de técnicas para medir e aprimorar critérios de resposta.
+Este repositório reúne um estudo dirigido essencial para o desenvolvimento do Projeto Final da disciplina de Controle e Automação no curso de Engenharia da Computação (IFPB – Campina Grande). A abordagem está fundamentada em capítulos-chave do livro **Sistemas de Controle Modernos** (13ª edição), de Richard C. Dorf & Robert H. Bishop, promovendo a integração entre teoria e prática por meio de simulações computacionais.
 
-Capítulo 6: Estabilidade de Sistemas de Feedback Linear
-Apresenta métodos para verificar e garantir estabilidade – condição fundamental para qualquer sistema de controle, a partir de análises como critério de Routh-Hurwitz.
+---
 
-Capítulo 7: Método do Lugar das Raízes (Root Locus)
-Detalha como utilizar o lugar das raízes para ajustar parâmetros do sistema e posicionar pólos, complementando a fase de projeto com ferramentas visuais e analíticas.
+## 🗂️ Capítulos de Referência
 
-Capítulo 10: Projeto de Sistemas de Controle de Feedback
-Foca em estratégias e procedimentos práticos para síntese de controladores, compensadores e ajuste fino do sistema com base em especificações pré-definidas.
+- **Capítulo 4:** Características dos Sistemas de Controle de Feedback  
+  Explora respostas transitórias, erros de regime permanente, sensibilidade e robustez em sistemas de controle.
 
-Capítulo 13: Sistemas de Controle Digital
-Introduz os fundamentos de controle digital – discretização, estabilidade em tempo discreto e implementação usando computadores ou microcontroladores.
+- **Capítulo 5:** Desempenho dos Sistemas de Controle por Feedback  
+  Aborda análise da resposta de sistemas a diferentes entradas e métricas de desempenho.
 
-🎯 Objetivo
-O objetivo central é oferecer uma base sólida, teórica e prática, para o projeto e análise de sistemas de controle modernos, com aplicações em controle e automação industrial. O estudo aprofunda tópicos essenciais para:
+- **Capítulo 6:** A Estabilidade de Sistemas de Feedback Linear  
+  Apresenta métodos para avaliar e garantir estabilidade (ex: critério de Routh-Hurwitz).
 
-Analisar e garantir estabilidade, desempenho e robustez dos sistemas de controle;
-Projetar sistemas que integrem técnicas clássicas e digitais;
-Utilizar ferramentas computacionais para simulação, validação e ajuste de sistemas.
-🛠️ Ferramentas e Bibliotecas Utilizadas
-As principais análises e simulações foram realizadas utilizando os seguintes recursos Python:
+- **Capítulo 7:** Método do Lugar das Raízes (Root Locus)  
+  Introduz o uso do Root Locus para análise e projeto de controladores, facilitando o ajuste de parâmetros do sistema.
 
-numpy
-Para operações matemáticas e manipulação vetorial/matricial.
+- **Capítulo 10:** Projeto de Sistemas de Controle de Feedback  
+  Foco em estratégias para projeto prático de compensadores e sintonização baseados em requisitos do sistema.
 
-matplotlib.pyplot
-Para visualização gráfica dos resultados das simulações.
+- **Capítulo 13:** Sistemas de Controle Digital  
+  Introduz fundamentos do controle digital, discretização e implementação em meios computacionais.
 
-control
-Para modelagem, análise e simulação de sistemas lineares (tempo contínuo/discreto), lugares das raízes, resposta temporal/frequencial e projetos de controladores.
+---
 
-🧑‍💻 Como Utilizar
-Requisitos:
-Certifique-se de ter Python instalado e as bibliotecas acima.
+## 🎯 Objetivo
 
-Execução dos scripts:
-Os notebooks e scripts podem ser encontrados na pasta /src. Siga o roteiro sugerido nos próprios arquivos para reproduzir simulações.
+O objetivo principal deste estudo é **fornecer uma base sólida para o projeto e análise de sistemas de controle modernos**, unindo aspectos teóricos e práticos aplicados ao desenvolvimento de projetos em Controle e Automação. Entre os focos principais estão:
 
-Referências:
-Recomenda-se estudar os capítulos mencionados, acompanhando as demonstrações dos códigos, para consolidar os conceitos e entender a aplicação prática.
+- Analisar e garantir estabilidade, desempenho e robustez dos sistemas;
+- Projetar sistemas integrando técnicas clássicas e digitais;
+- Utilizar ferramentas computacionais para modelar, simular e validar sistemas de controle.
 
-✍️ Considerações Finais
-O estudo dirigido expande a compreensão sobre controle moderno, oferecendo embasamento para projetos futuros em áreas como automação industrial, robótica e sistemas ciberfísicos.
-Sugere-se aprofundar perguntas, fomentar discussões e, sempre que possível, revisar as simulações com diferentes parâmetros de projeto.
+---
 
-Referência:
-DORF, R. C.; BISHOP, R. H. Sistemas de Controle Modernos. 13ª edição. Pearson.
+## 🛠️ Ferramentas e Bibliotecas Utilizadas
 
+As principais análises e simulações foram desenvolvidas utilizando:
+
+- [numpy](https://numpy.org/): Operações matemáticas e manipulação de arrays/matrizes.
+- [matplotlib.pyplot](https://matplotlib.org/): Visualização gráfica de resultados de simulação.
+- [control](https://python-control.readthedocs.io/): Modelagem, análise e simulação de sistemas lineares (contínuo/discreto), Root Locus, resposta temporal/frequencial e projetos de controladores.
+
+---
+
+## 🧑‍💻 Como Utilizar
+
+1. **Pré-requisitos**  
+   Certifique-se de ter Python e as bibliotecas acima instaladas.
+
+2. **Execução**  
+   Os notebooks e scripts estão na pasta `/src`. Siga as instruções nos próprios arquivos para realizar as simulações.
+
+3. **Aprofundamento**  
+   Recomenda-se estudar os capítulos citados e acompanhar os experimentos dos códigos para consolidar o aprendizado.
+
+---
+
+## ✍️ Considerações Finais
+
+Este estudo dirigido contribui para o entendimento do controle moderno, preparando para futuros projetos em áreas como automação industrial, robótica e sistemas ciberfísicos.  
+Aconselha-se aprofundar questões, promover discussões e revisar experimentos com diferentes parâmetros.
+
+---
+
+### Referência
+
+DORF, R. C.; BISHOP, R. H. *Sistemas de Controle Modernos*. 13ª edição. Pearson.
+
+---
