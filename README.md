@@ -57,7 +57,7 @@ As principais análises e simulações foram desenvolvidas utilizando:
    Certifique-se de ter Python e as bibliotecas acima instaladas.
 
 2. **Execução**  
-   Os notebooks e scripts estão na pasta `/src`. Siga as instruções nos próprios arquivos para realizar as simulações.
+   Os notebooks e scripts estão na pasta main. Siga as instruções nos próprios arquivos para realizar as simulações.
 
 3. **Aprofundamento**  
    Recomenda-se estudar os capítulos citados e acompanhar os experimentos dos códigos para consolidar o aprendizado.
