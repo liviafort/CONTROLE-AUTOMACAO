@@ -11,19 +11,19 @@ Este repositório reúne um estudo dirigido essencial para o desenvolvimento do 
 
 ## 🗂️ Capítulos de Referência
 
-- **Capítulo 4:** Características dos Sistemas de Controle de Feedback  
+- **Capítulo 4:** Características de Sistemas de Controle com Realimentação  
   Explora respostas transitórias, erros de regime permanente, sensibilidade e robustez em sistemas de controle.
 
-- **Capítulo 5:** Desempenho dos Sistemas de Controle por Feedback  
+- **Capítulo 5:** O Desempenho de Sistemas de Controle com Realimentação
   Aborda análise da resposta de sistemas a diferentes entradas e métricas de desempenho.
 
-- **Capítulo 6:** A Estabilidade de Sistemas de Feedback Linear  
+- **Capítulo 6:** A Estabilidade de Sistemas Lineares com Realimentação 
   Apresenta métodos para avaliar e garantir estabilidade (ex: critério de Routh-Hurwitz).
 
-- **Capítulo 7:** Método do Lugar das Raízes (Root Locus)  
+- **Capítulo 7:** O Método do Lugar das Raízes
   Introduz o uso do Root Locus para análise e projeto de controladores, facilitando o ajuste de parâmetros do sistema.
 
-- **Capítulo 10:** Projeto de Sistemas de Controle de Feedback  
+- **Capítulo 10:** O Projeto de Sistemas de Controle com Realimentação
   Foco em estratégias para projeto prático de compensadores e sintonização baseados em requisitos do sistema.
 
 - **Capítulo 13:** Sistemas de Controle Digital  
