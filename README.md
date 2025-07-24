@@ -1,4 +1,5 @@
-# Estudo Dirigido – Projeto Final: Controle e Automação  
+# Estudo Dirigido – Projeto Final: Controle e Automação 
+## Por: Lívia Maria Fortunato de Sousa e Liedson Augusto Maciel Costa
 _Revisão baseada no livro “Sistemas de Controle Modernos” (13ª Ed., Dorf & Bishop)_
 
 ---
